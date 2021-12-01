@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
@@ -39,14 +40,15 @@ a {
 }
 
 .container {
-  
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: stretch;
-  margin: 50px 20px;
+  margin: 80px 225px;
   border-radius: 5px;
   overflow: hidden;
+  overflow: hidden;
+  position: absolute;
 }
 
 .card-cars {
@@ -77,19 +79,18 @@ a {
   color: hsl(179, 100%, 13%);
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1360px) {
   p {
-    margin-bottom: 100px;
+    margin-bottom: 90px;
   }
 
   .container {
-    width: 100%;
     flex-direction: row;
-    border-radius: 5px;
+    border-radius: 7px;
   }
 
   .card-cars {
-    width: 20vw;
-    height: 80vh;
+    width: 22vw;
+    height: 70vh;
   }
 }
