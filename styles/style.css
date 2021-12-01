@@ -80,6 +80,7 @@ a {
 
 @media (min-width: 1440px) {
   p {
+    height: 7vh;
     margin-bottom: 90px;
   }
 
