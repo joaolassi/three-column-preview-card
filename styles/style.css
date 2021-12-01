@@ -79,7 +79,7 @@ a {
   color: hsl(179, 100%, 13%);
 }
 
-@media (min-width: 1360px) {
+@media (min-width: 1440px) {
   p {
     margin-bottom: 90px;
   }
