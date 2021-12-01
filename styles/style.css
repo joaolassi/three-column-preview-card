@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+
+  background-color: hsl(0, 0%, 95%);
+}
+
+img {}
+
+h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+  margin-top: 20px;
+
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 20px;
+}
+
+a {
+  border-radius: 25px;
+  background-color: hsl(0, 0%, 95%);
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 50px 20px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card-cars {
+  padding: 30px 30px;
+}
+
+.card-sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.card-sedan>a {
+  color: hsl(31, 77%, 52%);
+}
+
+.card-suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card-suv>a {
+  color: hsl(184, 100%, 22%);
+}
+
+.card-luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.card-luxury>a {
+  color: hsl(179, 100%, 13%);
+}
+
+@media (min-width: 1024px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+/* Entre */
+@media (min-width: 1024px) and (max-width: 1300px) {}
+
+/* Impressora */
+@media print {
+  .card-cars {
+    border: 5px solid black;
+  }
+}
