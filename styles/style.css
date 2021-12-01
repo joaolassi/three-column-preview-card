@@ -11,40 +11,46 @@ body {
   background-color: hsl(0, 0%, 95%);
 }
 
-img {}
+img {
+  margin-bottom: 10px;
+}
 
 h2 {
   font-family: 'Big Shoulders Display', cursive;
   font-weight: 700;
+  font-size: 30px;
   color: hsl(0, 0%, 95%);
-  margin-top: 20px;
-
+  margin: 25px 0;
+  text-transform: uppercase;
 }
 
 p {
   color: hsla(0, 0%, 100%, 0.75);
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 a {
   border-radius: 25px;
   background-color: hsl(0, 0%, 95%);
-  padding: 10px 20px;
+  padding: 16px 30px;
   text-decoration: none;
+  margin-bottom: 40px;
+
 }
 
 .container {
+  
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: stretch;
   margin: 50px 20px;
-  border-radius: 15px;
+  border-radius: 5px;
   overflow: hidden;
 }
 
 .card-cars {
-  padding: 30px 30px;
+  padding: 60px 50px;
 }
 
 .card-sedan {
@@ -71,18 +77,19 @@ a {
   color: hsl(179, 100%, 13%);
 }
 
-@media (min-width: 1024px) {
-  .container {
-    flex-direction: row;
+@media (min-width: 1440px) {
+  p {
+    margin-bottom: 100px;
   }
-}
 
-/* Entre */
-@media (min-width: 1024px) and (max-width: 1300px) {}
+  .container {
+    width: 100%;
+    flex-direction: row;
+    border-radius: 5px;
+  }
 
-/* Impressora */
-@media print {
   .card-cars {
-    border: 5px solid black;
+    width: 20vw;
+    height: 80vh;
   }
 }
