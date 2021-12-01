@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+
 }
 
 body {
@@ -44,9 +44,8 @@ a {
   justify-content: center;
   flex-direction: column;
   align-items: stretch;
-  margin: 80px 225px;
-  border-radius: 5px;
-  overflow: hidden;
+  margin: 80px 20px;
+  border-radius: 25px;
   overflow: hidden;
   position: absolute;
 }
@@ -85,8 +84,13 @@ a {
   }
 
   .container {
+    margin: 80px 225px;
     flex-direction: row;
     border-radius: 7px;
+  }
+
+  .text {
+    margin-bottom: 100px;
   }
 
   .card-cars {
